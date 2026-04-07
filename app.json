@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "expo-rag-vector",
+    "slug": "expo-rag-vector",
+    "version": "0.1.0",
+    "scheme": "exporag",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.phungnlg.exporag" },
+    "android": { "package": "com.phungnlg.exporag" },
+    "plugins": ["expo-router"]
+  }
+}
