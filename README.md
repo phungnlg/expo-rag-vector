@@ -2,6 +2,8 @@
 
 A proof-of-concept mobile chatbot built with **Expo SDK 54**, **React Native**, **TypeScript** (strict mode), **Zustand**, and the **Anthropic Claude** + **Voyage AI** REST APIs. It implements a complete **RAG (Retrieval-Augmented Generation)** pipeline entirely on the client: documents are chunked, embedded via Voyage, stored in either an in-memory vector store or **Pinecone**, and answered by Claude with citation chips pointing back to the source chunks. The app ships with realistic seed documents and a fully offline demo backend, so it is demoable on a simulator with no API keys at all.
 
+The UI follows the **Lumina RAG** design system (`src/theme.ts`): an Electric Indigo primary on an airy off-white canvas, white elevated answer bubbles with soft ambient shadows, large 24px radii, and pill-shaped citation chips that read as verification "stamps".
+
 ## Demo
 
 Live demo recorded on iOS Simulator (iPhone 17 Pro). With no API keys set, the app runs in offline demo mode: tapping a suggested question streams a grounded, cited answer drawn from the seeded documents.
